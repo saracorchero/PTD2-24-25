@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A QUI TOCA ARA?</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>A QUI TOCA ARA?</h1>
+    <div class="grid-container">
+        <p id="paraula" class="paraula"></p>
+        <form action="">
+            <br>
+            <input class="form1" type="text" id="camp_nom" placeholder="El teu nom...">
+            <br><br>
+            <button type="button" onclick="afegirjugador()">AFEGIR</button>
+        </form>
+    </div>
+
+    <div class="grid-container2">
+        <p class="p2">ARA JUGA</p>
+        <form action="">
+            <br>
+            <p id="jugador_actual"></p>
+            <br><br>
+            <button type="button" onclick="nextplayer()">SEGÜENT</button>
+        </form>
+    </div>
+
+    <div class="grid-container3">
+    <p class="p3">LLISTAT DE JUGADORS</p>
+    <p id="jugadors"></p>
+
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
