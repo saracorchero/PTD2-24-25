@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+  }
+
+  
+:root {
+    /* the designs were created tp the following widths */
+    --mobile_width:375px;
+    --desktop_width: 1440px;
+    --dark_cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --paragraph-size: 14px;    
+}
+
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  padding: 0px;
+}
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    padding: 32px;
+    border-radius: 10px;
+  }
+  
+  .poppins-200 {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 42px;
+  }
+
+  .poppins-400 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-600 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 3px;
+  }
+  
+  .titulo,
+  .subtitulo {
+    font-size: 19px;
+  }
+  
+  
+  .texto {
+    font-size: 14px;
+    padding-top: 20px;
+    color: grey;
+    padding-bottom: 45px;
+  }
+
+  .titulo,
+  .subtitulo,
+  .text {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-supervisor {
+    margin-top: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    border-top: 5px solid #00bcd4;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 25px;
+  }
+
+  .card-teambuilder{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    border-top: 5px solid #ff4081;
+    margin-top: 30px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .card-karma{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 20px;
+    margin: 10px;
+    border-top: 5px solid #ffc107;
+    margin-top: 30px;
+  }
+
+  .text {
+    font-size: 13px;
+    color: grey;
+  }
+
+    .card-calculator{
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      padding: 20px;
+      margin: 10px;
+      border-top: 5px solid #3f51b5;
+      padding-bottom: -300px;
+      margin-top: 20px;
+  }
+
+ 
+  .card-supervisor:hover, 
+  .card-calculator:hover,
+  .card-karma:hover,
+  .card-teambuilder:hover{
+    transform:translate(10px,5px) ;
+  }
+  
+  
+  .cardimg {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 240px;
+  }
+  
+
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 400;
+    margin-left: 13px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 3px;
+  }
+  
+  @media (min-width: 1440px)  {
+    .cards {
+      flex-direction: row;
+      width: 90%;
+    }
+
+    .flex-container {
+        flex-direction: row; 
+    }
+
+    .card-supervisor, .card-calculator{
+      margin-top: 140px;
+    }
+
+    .card-supervisor, .card-calculator, .card-teambuilder, .card-karma{
+      width: 375px;
+      height: 230px;
+    }
+
+    .texto{
+      padding-right: 380px;
+      padding-left: 380px;
+    }
+
+    .titulo,
+    .subtitulo {
+      font-size: 25px;
+    }
+
+    }
+  
