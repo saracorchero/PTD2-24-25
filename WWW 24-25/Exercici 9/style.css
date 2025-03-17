@@ -1,0 +1,100 @@
+.roboto400 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.roboto700 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.img-info{
+    display: none;
+  }
+
+.p1{
+  font-size: 30px;
+}
+
+.p2{
+  font-size: 15px;
+}
+
+.info{
+    padding: 15px;
+  }
+
+.tick{  
+  display: inline-block;
+  font-size: 15px;
+}
+
+.logo-tick{  
+  display: inline-block;
+}
+
+.email{
+  font-size: 13px;
+}
+
+.form{
+  height: 45px;
+  width: 295px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.subscribe{
+  width: 320px;
+  padding-left: 25px;
+  background-color: black;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.pboton{
+  color: aliceblue;
+}
+
+.success{
+padding: 10px;
+}
+
+.logo-tick2{
+  width: 60px;
+  margin-top: 90px;
+  margin-left: 18px;
+}
+
+.thanks{
+  font-size: 36px;
+}
+
+.confirmation{
+  font-size: 15px;
+}
+
+.pboton2{
+  color: aliceblue;
+}
+
+.dismiss{
+  width: 350px;
+  padding-left: 25px;
+  background-color: black;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+

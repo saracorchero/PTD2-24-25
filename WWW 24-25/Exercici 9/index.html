@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="flex-container">
+<div class="img-info">
+ <div class="div-imagen">
+  <img class="imatge" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+ </div>
+
+ <div class="info">
+  <p class="p1 roboto700">Stay updated!</p>
+
+  <p class="p2 roboto400">Join 60,000+ product managers receiving monthly updates on:</p>
+  
+  <img class="logo-tick" src="assets/images/icon-list.svg" alt="">
+  <p class="tick roboto400">Product discovery and building what matters</p>
+
+  <img class="logo-tick" src="assets/images/icon-list.svg" alt="">
+  <p class="tick roboto400">Measuring to ensure updates are a success</p>
+
+  <img class="logo-tick" src="assets/images/icon-list.svg" alt="">
+  <p class="tick roboto400">And much more!</p>
+
+  <p class="email roboto700">Email address</p>
+  <form action=""> 
+
+    <input id="form" class="form roboto400" type="text" placeholder="email@company.com">
+    <br><br>
+
+    </form>
+
+    <button type="submit" class="subscribe" onclick="cambiar()">
+      <p class="pboton roboto700">Subscribe to monthly newsletter</p>
+    </button>
+  </div>
+</div>
+  <div class="success">
+    <img class="logo-tick2" src="assets/images/icon-list.svg" alt="">
+      <p class="thanks roboto700">Thanks for subscribing!</p>
+
+      <p class="confirmation roboto400">A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.</p>
+  
+  
+  
+      <button type="submit" class="dismiss" onclick="cambiar2()">
+      <p class="pboton2 roboto700">Dismiss message</p>
+      </button>
+  </div>
+
+  
+</div>
+
+</body>
+</html>
